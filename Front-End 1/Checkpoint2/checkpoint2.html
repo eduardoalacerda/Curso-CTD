@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkpoint2.css">
+    <title>Checkpoint 2</title>
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <ul>
+            <li><a href="I:\RG DOCUMENTOS\CURSO CTD\Front-End 1\Checkpoint2\checkpoint2Eduardo.html"
+                    target="__blank">São Paulo</a></li>
+            <li><a href="I:\RG DOCUMENTOS\CURSO CTD\Front-End 1\Checkpoint2\checkpoint2Atef.html"
+                    target="__blank">Maceió</a></li>
+            <li><a href="I:\RG DOCUMENTOS\CURSO CTD\Front-End 1\Checkpoint2\checkpoint2Luiza.html"
+                    target="__blank">Canela</a></li>
+        </ul>
+    </header>
+    <h1>Agência de Turismo</h1>
+    <main>
+        <div class="menu">
+            <h2>Viaje conosco! Cadastre-se aqui:</h2>
+            <form action="submit">
+                <div class="menu1">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Coloque seu nome aqui" maxlength="100"
+                        required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Coloque seu e-mail aqui" required>
+                    <label for="telefone">Telefone</label>
+                    <input type="number" name="telefone" id="telefone" placeholder="Coloque seu telefone aqui" required>
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento" placeholder="Coloque sua data de nascimento"
+                        required>
+                </div>
+                <div class="div1">
+                    <h2>Maior de idade?</h2>
+                    <input type="radio" name="idade" id="maioridade" value="maioridade" required>
+                    <label for="maioridade">Sim</label>
+                    <input type="radio" name="idade" id="menoridade" value="menoridade">
+                    <label for="menoridade">Não</label>
+                </div>
+                <div class="div1">
+                    <h2>Selecione um ponto de interesse:</h2>
+                    <input type="radio" name="interesse" id="interesse1" required>
+                    <label for="interesse1">Ecoturismo</label>
+                    <input type="radio" name="interesse" id="interesse2">
+                    <label for="interesse2">Museu</label>
+                    <input type="radio" name="interesse" id="interesse3">
+                    <label for="interesse3">Curtição</label>
+                </div>
+                <div class="div1">
+                    <h2>Quais os seus interesses na cidade?</h2>
+                    <input type="checkbox" name="cidade" id="cidade1">
+                    <label for="cidade1">Turista</label>
+                    <input type="checkbox" name="cidade" id="cidade2">
+                    <label for="cidade2">Residente</label>
+                    <input type="checkbox" name="cidade" id="cidade3">
+                    <label for="cidade3">Estudante</label>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

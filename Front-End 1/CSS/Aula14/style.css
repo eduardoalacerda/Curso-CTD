@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://media.istockphoto.com/vectors/candy-shop-inviting-banner-vector-id1185474209);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 175px;
+    height: 175px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    position: absolute;
+    left: 40%;
+}
+
+button {
+    position: relative;
+    left: 20%;
+    margin: 20px 20px 20px 20px;
+}
+
+input {
+    position: relative;
+    bottom: 75px;
+}
+
+label {
+    position: relative;
+    bottom: 75px;
+}
+
+select {
+    position: relative;
+    bottom: 75px;
+}

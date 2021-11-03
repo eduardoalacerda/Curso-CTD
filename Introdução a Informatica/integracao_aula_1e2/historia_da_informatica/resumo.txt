@@ -1,0 +1,1 @@
+A informática se iniciou com a criação da matématica, a cerca de 8mil anos antes de Cristo. Com a invenção do ábaco, se intensificou o processo de automatização de cálculos; ou seja, automatização da matématica. Anos depois, Ada Lovelace criou o primeiro algoritmo; Alan Turing teorizou os fundamentos da informática;

@@ -1,0 +1,5 @@
+a. O sistema de controle de versão Git foi criado por Linus Torvalds. O Git foi criado após Linus "...  ter ficado insatisfeito com uma mudança de licença de utilização do BitKeeper, o sistema de controle de versão que era utilizado por ele e pela equipe que desenvolvia o Linux."
+
+b. A atual dona do Github é a Microsoft, que o comprou por 7,5 bilhões de dólares em 2018. O Github foi vendido por seus fundadores à Microsoft por oferta da compradora e seu interesse em desenvolver, e manter, o maior repositório de código de programas do mundo.
+
+c. Existem algumas outras maneiras de se trabalhar com o Github, como pelo próprio site ou pelo seu aplicativo Web.

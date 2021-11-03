@@ -1,0 +1,3 @@
+Resposta A - Git criado por Linus Torvalds: O desenvolvimento do Git surgiu após vários desenvolvedores do kernel (núcleo) do Linux decidirem desistir de acessar ao sistema do BitKeeper, que é um software proprietário.
+Resposta B - O atual "dono" é a microsoft, eles compraram pq tinham 7.5 Bilhões de dolares sobrando.
+Resposta C - Sim com o GitHub desktop. É a versão com interface gráfica para trabalharmos com GIT.

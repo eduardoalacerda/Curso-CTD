@@ -1,0 +1,46 @@
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+div.hover:hover {
+    background-color: green;
+}
+
+input#focus:focus {
+    background-color: yellow;
+}
+
+p.fletter::first-letter {
+    font-weight: bold;
+}
+
+#checkbox:checked {
+    height: 50px;
+    width: 50px;
+}
+
+p:nth-child(5) {
+    color: red;
+}
+
+input:disabled {
+    background-color: salmon;
+}
+
+input:enabled {
+    background-color: slategrey;
+}
+
+p:last-child {
+    color: violet;
+}
+
+input:required {
+    background-color: green;
+}
+
+input:optional {
+    width: 25px;
+}

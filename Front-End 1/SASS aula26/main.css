@@ -1,0 +1,38 @@
+p {
+  color: white;
+  background-color: black;
+}
+
+body {
+  height: 1200px;
+}
+
+div {
+  background-color: black;
+  padding: 20px;
+}
+div p {
+  height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: red;
+  height: 100px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */

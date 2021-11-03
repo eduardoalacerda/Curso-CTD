@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+ .grid, .linha1, .linha2 {
+    flex-direction: column-reverse;
+    padding: 18px;
+    justify-content: center;
+    height: auto;
+}
+}
+
+/* @media (max-width: 648px){
+    .linha2 {
+        display: block;
+    }
+}*/
+
+
+
+body {
+    height: 1000px;
+    background-color: rgb(31, 30, 30);
+}
+
+header {
+    background-color: crimson;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+img.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 104px;
+    height: 70px;
+    z-index: 2;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    position: absolute;
+    left: 40vw;
+    z-index: 2;
+}
+
+section {
+    position: absolute;
+    left: 25vw;
+    top: 13vw;
+}
+
+.linha1 {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 130px;
+}
+
+.linha2 {
+    display: flex;
+    gap: 40px;
+}
+
+#item1 {
+    background-image: url("C:/Users/Duzin/Downloads/242010260_10208607061211389_3985006936850374075_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+#item2 {
+    background-image: url("C:/Users/Duzin/Downloads/242010260_10208607061211389_3985006936850374075_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+}
+
+#item3 {
+    background-image: url("C:/Users/Duzin/Downloads/242010260_10208607061211389_3985006936850374075_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+}
+
+#item4 {
+    background-image: url("C:/Users/Duzin/Downloads/242010260_10208607061211389_3985006936850374075_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+}
+
+#item5 {
+    background-image: url("C:/Users/Duzin/Downloads/242010260_10208607061211389_3985006936850374075_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+}
+
+#item6 {
+    background-image: url("C:/Users/Duzin/Downloads/242010260_10208607061211389_3985006936850374075_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+}
+
+h2 {
+    position: relative;
+    top: 240px;
+    color: white;
+}
+
+h3 {
+    position: relative;
+    top: 240px;
+    color: white;
+}

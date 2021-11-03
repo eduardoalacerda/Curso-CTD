@@ -1,0 +1,1 @@
+O Gitbash é um tipo de terminal, mais ligado ao CLI do Linux. O VSCode é uma IDE utilizada para programação em diversas linguagens e ferramentas diferentes.

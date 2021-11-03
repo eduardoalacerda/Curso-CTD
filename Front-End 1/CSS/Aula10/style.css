@@ -1,0 +1,29 @@
+body {
+    background-image: url(C:/Users/Duzin/Downloads/81fvyZlrbAL._AC_SL1300_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 175px;
+    color: floralwhite;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+button {
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 50px;
+    border-radius: 7px;
+    background-color:rgb(131, 30, 30);
+    color: floralwhite;
+    cursor: pointer;
+}

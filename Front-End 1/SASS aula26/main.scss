@@ -1,0 +1,51 @@
+$primary: white;
+$secondary: black;
+$vremeio: red;
+$formatoLi: none;
+
+@mixin header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: $vremeio;
+    height: 100px;
+    width: 100%;
+}
+
+@mixin secoes {
+    background-color: $secondary;
+    padding: 20px;
+}
+
+p {
+    color: $primary;
+    background-color: $secondary;
+}
+
+body {
+    height: 1200px;
+}
+
+div {
+    @include secoes();
+  p {
+    height: 100vh;
+}
+}
+
+header {
+    @include header;
+}
+
+ul {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: $formatoLi;
+}
